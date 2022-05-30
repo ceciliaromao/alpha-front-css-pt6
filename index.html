@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Módulo 4 - CSS - Part 6</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Fresca:regular"
+      rel="stylesheet"
+    />
+    <style>
+      a {
+        color: red;
+      }
+      a:hover {
+        color: green;
+      }
+      a:active {
+        color: yellow;
+      }
+      a:visited {
+        color: blue;
+      }
+      @font-face {
+        font-family: "reeyregular";
+        src: url("reey-regular-webfont.woff2") format("woff2"),
+          url("reey-regular-webfont.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>List Style:</h1>
+    <h2>Unordered List</h2>
+    <ul>
+      <li style="list-style: disc">disc</li>
+      <li style="list-style: circle">circle</li>
+      <li style="list-style: square">square</li>
+      <li style="list-style: none">none</li>
+    </ul>
+    <h1>Link Style:</h1>
+    <a href="google.com">Ir para o google</a>
+    <h1>Fonts</h1>
+    <h2 style="font-family: reeyregular">
+      Font Woff: Reey
+    </h2>
+    <h2 style="font-family: Fresca">Font Google: Fresca</h2>
+  </body>
+</html>
